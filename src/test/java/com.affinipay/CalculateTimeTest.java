@@ -1,4 +1,4 @@
-package com.affinipay.com;
+package com.affinipay;
 
 
 import org.testng.Assert;

@@ -1,4 +1,4 @@
-package com.affinipay.com;
+package com.affinipay;
 
 
 public class CalculateTime {
@@ -20,8 +20,8 @@ public class CalculateTime {
         // clock goes back if we are adding more than 12 hours
         if (hours > 12) {
             int hoursMinusDays = hours - (days * day);
-            time = hoursMinusDays - day;
-            return time;
+            return hoursMinusDays - day;
+           
         }
       return hours;
 
