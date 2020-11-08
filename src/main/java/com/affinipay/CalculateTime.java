@@ -21,7 +21,7 @@ public class CalculateTime {
         if (hours > 12) {
             int hoursMinusDays = hours - (days * day);
             return hoursMinusDays - day;
-           
+
         }
       return hours;
 
